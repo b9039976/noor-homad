@@ -1,0 +1,186 @@
+
+ 
+  h3 , h4 ,  h5 , h6 {
+   font-weight: bold;
+   font-style: italic;
+ }
+ h6 {
+   font-size: 12px;
+ }
+ body {
+   background-color:rgb(226, 223, 223);
+ }
+   #container {
+        margin-top: 0px;
+        border-radius: 10px;
+       height: 120px ;
+      background-color:rgb(245, 218, 63);
+    
+      }
+    header {
+        
+        display: flex;
+        justify-content: left;
+        font-style: italic;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+      }
+     #logo  {
+      padding: 0;
+      margin: 50px;
+      
+    
+      }         
+nav ul {
+  flex-direction: row;
+  
+}
+    nav ul li {
+      list-style: none;
+      margin-left: 5px;
+        display:inline;
+        flex-wrap: wrap;
+        padding:10px;
+        border: 2px ;
+        border-left: 1px ;
+        border-bottom: 12px;
+        font-weight: bold;
+      
+    
+      }
+        nav li a:link{  text-decoration:underline;  color: rgba(7, 3, 2, 0.911) } 
+        nav li a:visited{  text-decoration:underline ;  color:#2c022e; }
+           nav li a:hover{  text-decoration:dotted;  color:#0bb365; } 
+           nav li a:active{  text-decoration:double;  color:#6b1919; }
+          
+           
+         .omar {
+      font-size: 17px;  
+      font-weight: bold;
+     color: #000; 
+     font-family:sans-serif;
+     font-stretch: initial;
+     width : 850px ; 
+     font-family: sans-serif;
+
+    }  
+    .noor {
+      font-size: 20px;
+      font-style: italic;
+      color: darkorange;
+      text-decoration: underline ;
+    }   
+          
+
+         
+        table{
+          border-style:none;
+          background-color: grey;
+          align-items: center;
+        margin:auto;
+        height: 700px;box-shadow: hotpink;
+         border-radius: 15px;
+          
+        }
+       th {
+          color: rgb(209, 96, 134);
+          border-style:groove;
+          border-style:double;
+        
+      
+        }
+        th ,td {
+          width:max-content;
+          border-radius: 15px;
+          text-align: center;
+          border-color: grey ;
+          background-color: black;
+        }
+        td{
+          border-style:groove;
+          color: ivory;
+          
+          
+        }
+        .myFlex{
+display: flex;
+flex-direction: row;
+        }
+    
+            #footer{
+
+              font-size: 16px;
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              font-style: italic;
+              text-align-last: center; }
+              form{
+                width: 50%;
+                margin: auto;
+              }
+              form > div {
+                margin: 15px 0 ;
+               align-items: center;
+               padding-bottom: 10px;
+               display: flex;
+
+              }
+              label{
+                display:inline-block ;
+                width: 120px;
+                flex-basis:200 px;
+              
+          
+              }
+              input {
+               width: 150px;
+               padding: 7px ;
+              
+              }
+
+         textarea{
+           width: 350px;
+           height: 170px;
+           padding: 5px;
+          
+
+         }
+         #submit{
+           background-color: #b91b1b;
+           color: black;
+           font-style: italic;
+           font-weight: bold;
+           width: 100px;
+           height: 50px;
+           align-items: center;
+           text-align-last: center;
+          width: 200px;
+        text-align: center;
+        }
+
+          h1 
+ {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-style: italic;
+   text-decoration-line: underline;
+   text-align-last:center ;
+   color:rgb(7, 58, 7) ;
+   
+   -webkit-animation: glow 1s ease-in-out infinite alternate;
+   -moz-animation: glow 1s ease-in-out infinite alternate;
+   animation: glow 1s ease-in-out infinite alternate;
+   text-shadow: 0 0 10px rgb(166, 165, 231), 0 0 20px rgb(78, 81, 231), 0 0 30px #3734eb, 0 0 40px #a2a6c7,
+    0 0 50px #e73508d7, 0 0 60px #2427cf, 0 0 70px#1f035f;
+  
+ }
+
+ body {
+    background-color:rgb(226, 223, 223);
+
+ } 
+
+
+  }
+  header{
+    margin: 0;
+
+
+  }
